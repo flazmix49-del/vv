@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "blagovisual",
+  "version": "${version}",
+  "name": "blagovisual",
+  "description": "Красивый визуал: кастомный прицел, TargetHUD, ватермарка и AutoSwap.",
+  "authors": ["blagovisual"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["ru.blagovisual.BlagoVisualClient"]
+  },
+  "mixins": ["blagovisual.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
